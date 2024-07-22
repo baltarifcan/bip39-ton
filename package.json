@@ -1,0 +1,19 @@
+{
+  "name": "ton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ton/core": "^0.56.3",
+    "@ton/crypto": "^3.2.0",
+    "@ton/ton": "^14.0.0",
+    "@types/sjcl": "^1.0.34",
+    "sjcl": "^1.0.8",
+    "ts-node": "^10.9.2"
+  }
+}
