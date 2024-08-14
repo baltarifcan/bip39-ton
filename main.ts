@@ -9,7 +9,7 @@ async function main() {
     const mnemonicTonString = mnemonicTon.join(" ");
     const checkResult = check(mnemonicTonString);
     if (checkResult) {
-      printMnemonic(mnemonicTonString);
+      console.log(mnemonicTonString);
       break;
     }
     counter++;
